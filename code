@@ -1,0 +1,15 @@
+mantra jodo(a, b) {
+  chapo a + b
+  
+  chapo 323;
+  return sahi;
+}
+
+
+dabba t="something";
+
+chapo t;
+
+
+
+chapo jodo(3,2);

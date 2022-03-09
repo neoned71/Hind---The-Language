@@ -1,0 +1,16 @@
+    dabba tiffin=100;
+
+jabtak (tiffin>0)
+{
+    chapo tiffin;
+    tiffin = tiffin-1;
+}
+
+yadi (tiffin>10)
+{
+    chapo "bada";
+}
+athwa
+{
+    chapo "chota";
+}
