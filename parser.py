@@ -207,7 +207,7 @@ class Parser:
         #factor → unary ( ( "/" | "*" ) unary )* ;
         expr = self.unary()
         # print(expr.value)
-        while(self.match([TokenTypes.SLASH,TokenTypes.STAR])):
+        while(self.match([TokenTypes.SLASH,TokenTypes.STAR,TokenTypes.MOD])):
             operator = self.previous()
             right= self.unary()
             expr = Binary(expr,operator,right)

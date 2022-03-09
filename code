@@ -1,15 +1,23 @@
-mantra jodo(a, b) {
-  chapo a + b
-  
+karya jodo(a, b) {
+  chapo a + b;
   chapo 323;
-  return sahi;
+  uttar galat;
 }
 
+chapo 11%5;
 
-dabba t="something";
+dabba t=3;
+
+t=8;
+
+yadi(t==3){
+  t=90;
+    chapo "barabar";
+}
+athwa{
+  t=40;
+    chapo galat;
+}
 
 chapo t;
-
-
-
 chapo jodo(3,2);

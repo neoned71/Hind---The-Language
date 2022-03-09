@@ -12,6 +12,7 @@ class TokenTypes(Enum):
   SEMICOLON=9
   SLASH=10
   STAR=11
+  
 
 
   # One or two character tokens.
@@ -48,6 +49,7 @@ class TokenTypes(Enum):
   WHILE=38
 
   EOF=39
+  MOD=40
 
 
 class Token:

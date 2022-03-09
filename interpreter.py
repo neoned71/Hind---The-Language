@@ -25,15 +25,10 @@ class Interpreter:
 
     #API function
     def interpret(self,statements:List[Statement])->None:
-        # for statement in statements:
-        #     #    print(statement)
-        #        self.execute(statement)
         try:
            for statement in statements:
-            #    print(statement)
                self.execute(statement)
         except Exception as exp:
-            # print("inside interpreter")
             print(exp.args)
 
     def expression_statement(self,statement:ExpressionStatement):
@@ -158,6 +153,10 @@ class Interpreter:
             case TokenTypes.STAR:
                 self.check_numeric_oprands(expr.operator, left, right)
                 return float(left) * float(right)
+            
+            case TokenTypes.MOD:
+                self.check_numeric_oprands(expr.operator, left, right)
+                return float(left) % float(right)
 
             case TokenTypes.PLUS:
                 self.check_numeric_oprands(expr.operator, left, right)

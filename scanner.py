@@ -35,6 +35,7 @@ class Scanner:
             case '.': self.add_tokens(TokenTypes.DOT); return
             case '-': self.add_tokens(TokenTypes.MINUS); return
             case '+': self.add_tokens(TokenTypes.PLUS); return
+            case '%': self.add_tokens(TokenTypes.MOD); return
             case ';': self.add_tokens(TokenTypes.SEMICOLON); return
             case '*': self.add_tokens(TokenTypes.STAR); return
             case '/': self.add_tokens(TokenTypes.SLASH); return

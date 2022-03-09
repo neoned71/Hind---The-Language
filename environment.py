@@ -1,7 +1,4 @@
 class Environment:
-    
-    # environment=None
-
     def __init__(self,enclosing=None):
         self.values={}
         self.environment:Environment = enclosing
