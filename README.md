@@ -1,10 +1,10 @@
 # Hind---The-Language
 A dynamically typed interpreted programming language written in Python!
 
-###Components
+### Components
 
 #### Variables
-*dabba* i = 10;
+#dabba i = 10;
 
 #### Print Inbuilt
 *chapo* i;
@@ -18,3 +18,6 @@ A dynamically typed interpreted programming language written in Python!
 
 #### Functions
 *karya* jodna(a,b){ *uttar* a+b;}
+
+
+### For adding/editing keywords ckeck *utils.py* file
